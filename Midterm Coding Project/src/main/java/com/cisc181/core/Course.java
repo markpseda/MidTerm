@@ -9,7 +9,9 @@ public class Course extends Semester{
 	private String CourseName;
 	private int GradePoints;
 	private eMajor Major;
-	
+	/**
+	 * No arg constructor for course.
+	 */
 	public Course(){
 		super();
 		this.CourseID = UUID.randomUUID();
@@ -23,12 +25,6 @@ public class Course extends Semester{
 		Major = major;
 	}
 	
-	
-	public Course(Date startDate, Date endDate) {
-		super(startDate, endDate);
-		// TODO Auto-generated constructor stub
-	}
-
 	public eMajor getMajor() {
 		return Major;
 	}

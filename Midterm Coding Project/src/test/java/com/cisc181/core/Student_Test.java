@@ -91,14 +91,6 @@ public class Student_Test {
 		sectionList.add(Section2Spring);
 		sectionList.add(Section3Spring);
 		
-		/*
-		firstCourse = new Section("Physics308", 4, eMajor.PHYSICS);
-		secondCourse = new Course("CompSci204", 3, eMajor.COMPSCI);
-		thirdCourse = new Course("Chemistry101", 4, eMajor.CHEM);
-		courseList.add(firstCourse);
-		courseList.add(secondCourse);
-		courseList.add(thirdCourse);
-		*/
 		
 		for(Student s: studList)
 			for(Section c: sectionList)
@@ -107,11 +99,11 @@ public class Student_Test {
 	
 	@Test
 	public void EnrollTest(){
+		//enrollList was performed BeforeClass so the below tests could use it.
+		//There should be 60 enrollments; 10 students * 6 sections
+		assertTrue(enrollList.size() == 60);
 		
-		//enrollList = new ArrayList<Enrollment>();
 		
-		
-		System.out.println(enrollList.size());
 				
 	}
 
@@ -144,11 +136,6 @@ public class Student_Test {
 		double stud1GPA = stud1CumPoints/cumPointsTotal;
 		assertEquals(stud1GPA, correctGPA, .001);
 		
-				
-		
-			
-			
-
 	}
 	@Test
 	public void CourseAveragetest(){
@@ -161,5 +148,13 @@ public class Student_Test {
 											//4.0 for enrollments: 3,7,11,15,19,23,27,31,35... up through 29
 	
 	}
+	
+	@Test
+	public void changeMajorTest(){
+		String oldMajor = studList.get(5).getMajor().toString();
+		studList.get(5).setMajor(eMajor.BUSINESS);
+		String newMajor = studList.get(5).getMajor().toString();
+		assertTrue(oldMajor != newMajor);
+		
+	}
 }
-

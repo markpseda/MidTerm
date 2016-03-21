@@ -2,8 +2,8 @@
 <class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="com.cisc181.core.Course" project="Midterm Coding Project" 
-    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Course.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="108" y="417"/>    
+    file="/MidTermFirst/src/main/java/com/cisc181/core/Course.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="66" y="418"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -20,7 +20,7 @@
     </display>  
   </class>  
   <class id="3" language="java" name="com.cisc181.core.Enrollment" project="Midterm Coding Project" 
-    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Enrollment.java" binary="false" corner="BOTTOM_RIGHT">    
+    file="/MidTermFirst/src/main/java/com/cisc181/core/Enrollment.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="601" y="209"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -29,7 +29,7 @@
     </display>  
   </class>  
   <class id="4" language="java" name="com.cisc181.core.Faculty" project="Midterm Coding Project" 
-    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Faculty.java" binary="false" corner="BOTTOM_RIGHT">    
+    file="/MidTermFirst/src/main/java/com/cisc181/core/Faculty.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="703" y="951"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -56,7 +56,7 @@
     </display>  
   </class>  
   <class id="7" language="java" name="com.cisc181.core.Student" project="Midterm Coding Project" 
-    file="/Midterm Coding Project/src/main/java/com/cisc181/core/Student.java" binary="false" corner="BOTTOM_RIGHT">    
+    file="/MidTermFirst/src/main/java/com/cisc181/core/Student.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="680" y="455"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -66,14 +66,14 @@
   </class>  
   <class id="8" language="java" name="com.cisc181.core.Section" project="Midterm Coding Project" 
     file="/Midterm Coding Project/src/main/java/com/cisc181/core/Section.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="100" y="673"/>    
+    <position height="-1" width="-1" x="71" y="674"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="com.cisc181.core.Semester" project="Midterm Coding Project" 
+  <class id="9" language="java" name="com.cisc181.core.Semester" project="MidTermFirst" 
     file="/Midterm Coding Project/src/main/java/com/cisc181/core/Semester.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="253" width="145" x="34" y="3"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
