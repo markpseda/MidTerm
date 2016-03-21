@@ -146,7 +146,7 @@ public class Student_Test {
 											//2.0 for enrollments: 1,5,9,13,17,21,25,29,33,... up through 37
 											//3.0 for enrollments: 2,6,10,14,18,22,26,30,34... up through 38
 											//4.0 for enrollments: 3,7,11,15,19,23,27,31,35... up through 29
-	
+	// The way I set up the courses in this case each section being a different course
 	}
 	
 	@Test

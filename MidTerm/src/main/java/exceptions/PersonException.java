@@ -17,6 +17,10 @@ public class PersonException extends Exception{
 		return this.age;
 	}
 	
+	public PersonException(Person person){
+		this.person = person;
+	}
+	
 	/**
 	 * Create an instance of the PersonException class, to be thrown to the caller
 	 * @param Phone number entered that was invalid, should have been of the form
